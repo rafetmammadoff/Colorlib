@@ -1,1 +1,621 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container {
+  width: 1100px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body #page-head {
+  height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-head .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+body #page-head .container .search-area .icons-input {
+  position: relative;
+  width: 255px;
+}
+
+body #page-head .container .search-area .icons-input .head-text-area {
+  width: 255px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  padding-left: 45px;
+  font-size: 15px;
+}
+
+body #page-head .container .search-area .icons-input .head-text-area:focus {
+  outline: none;
+  border: 1px solid #5dd600;
+}
+
+body #page-head .container .search-area .icons-input .src-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: gray;
+}
+
+body #page-head .container .h1 {
+  font-size: 22px;
+  color: #000 !important;
+  font-weight: 700;
+}
+
+body #page-head .container .head-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #page-head .container .head-icons i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body #trending {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #trending .container .trend-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #trending .container .trend-text h1 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+body #trending .container .img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #trending .container .img-text .img-1 img {
+  width: 440px;
+  height: 385px;
+  border: none;
+  border-radius: 7px;
+}
+
+body #trending .container .img-text .text-1 {
+  margin-left: 55px;
+}
+
+body #trending .container .img-text .text-1 .text-date {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+body #trending .container .img-text .text-1 .text-date span {
+  color: #999;
+  font-weight: 400;
+}
+
+body #trending .container .img-text .text-1 .text-head {
+  font-size: 40px;
+  font-weight: 700;
+  color: #222;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+body #trending .container .img-text .text-1 .text-content {
+  font-size: 16px;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+body #trending .container .img-text .text-1 .text-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #trending .container .img-text .text-1 .text-foot .foot-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+body #trending .container .img-text .text-1 .text-foot .foot-text p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+body #trending .container .img-text .text-1 .text-foot .foot-text span {
+  font-size: 13px;
+  color: #888;
+}
+
+body #page-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-body .container .copy {
+  margin-top: 10px;
+}
+
+body #page-body .container .blog-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #page-body .container .blog-items .blog-item {
+  margin-top: 100px;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-img img {
+  width: 339px;
+  height: 218px;
+  border: none;
+  border-radius: 7px;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-date {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-date span {
+  font-weight: 400;
+  color: #999;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-head {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-content {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #888;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+body #page-body .container .blog-items .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-job {
+  font-size: 13px;
+  color: #888;
+}
+
+body #most-pop-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #most-pop-post .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #most-pop-post .container .blog-item {
+  margin-top: 100px;
+}
+
+body #most-pop-post .container .blog-item .bl-it-img img {
+  width: 749px;
+  height: 481px;
+  border: none;
+  border-radius: 7px;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-date {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-date span {
+  font-weight: 400;
+  color: #999;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-head {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-content {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #888;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+body #most-pop-post .container .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-job {
+  font-size: 13px;
+  color: #888;
+}
+
+body #page-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 130px;
+}
+
+body #page-foot .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #page-foot .container .blog-items-3 h1 {
+  font-weight: 800;
+}
+
+body #page-foot .container .blog-items-3 .blog-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px !important;
+  margin-bottom: 46px;
+  margin-top: 100px;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-img img {
+  width: 150px;
+  height: 96px;
+  border: none;
+  border-radius: 7px;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt {
+  margin-left: 20px;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-date {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-date span {
+  font-weight: 400;
+  color: #999;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-head {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-name {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+body #page-foot .container .blog-items-3 .blog-item .bl-it-txt .bl-it-txt-author .bl-it-txt-author-job-name .bl-it-txt-author-job {
+  font-size: 13px;
+  color: #888;
+}
+
+body #page-foot-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 90px;
+}
+
+body #page-foot-area .container-foot-area {
+  width: 1310px;
+  height: 175px;
+  background-color: #f8f9fa;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #page-foot-area .container-foot-area h1 {
+  font-size: 25px;
+  margin-left: 47px;
+  margin-top: 27px;
+}
+
+body #page-foot-area .container-foot-area .txt-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-foot-area .container-foot-area .txt-area .email-area {
+  width: 700px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  font-size: 16px;
+  color: #ced4da;
+  padding-left: 20px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+body #page-foot-area .container-foot-area .txt-area .subm {
+  width: 380px;
+  height: 50px;
+  border: none;
+  background-color: #f79918;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+body #page-foot-area .container-foot-area .txt-area .subm:hover {
+  border: none;
+  background-color: white;
+  color: #f79918;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+body #page-foot-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-foot-icons .container .icons {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-foot-icons .container .icons .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 5px;
+}
+
+body #page-foot-icons .container .icons .icon:hover {
+  background-color: #f79918;
+  color: white;
+}
+
+body #page-foot-icons .container .footer-text-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+body #page-foot-icons .container .footer-text-up .textt p {
+  font-size: 15px;
+  color: #888;
+}
+
+body #page-foot-icons .container .footer-text-up .textt p i {
+  color: red;
+}
+
+body #page-foot-icons .container .footer-text-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #page-foot-icons .container .footer-text-down span {
+  font-size: 16px;
+  color: #888;
+}
+/*# sourceMappingURL=style.css.map */
